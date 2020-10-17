@@ -1,0 +1,123 @@
+/* BOX MODEL - nastavíme intuitivnější box model (border-box) */
+html {
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+/*
+Bootstrap 4 breakpointy: 576px, 768px, 992px, 1200px
+xs: (max-width: 575px)
+sm: (min-width: 576px) and (max-width: 767px)
+md: (min-width: 768px) and (max-width: 991px)
+lg: (min-width: 992px) and (max-width: 1199px)
+xl: (min-width: 1200px)
+
+Barvy
+růžová: #c5308a
+světle šedá: #f0f0f0
+*/
+
+/* --- pod tuto čáru piš svoje CSS --------------------------------------- */
+
+.medailonek {
+  padding: 1px;
+  border: 2px dotted #c5308a;
+}
+
+h3 {
+  color: #c5308a;
+  margin-top: 5 px;
+  margin-bottom: 15 px;
+}
+
+body {
+  background-color: #c5308a;
+}
+
+h2 {
+  margin-bottom: 15px;
+  padding-top: 1.5rem;
+}
+
+.kadernice,
+.references,
+.contact {
+  background-color: #f0f0f0;
+}
+
+.akce {
+  background-color: #c5308a;
+  color: white;
+}
+
+footer,
+.foto,
+.services {
+  background-color: white;
+}
+
+.references img {
+  border-radius: 50%;
+}
+
+.navbar {
+  background-color: black;
+  color: #c5308a;
+}
+
+.nav-link {
+  color: white;
+}
+
+section {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+a:hover,
+a:focus {
+  color: #f0f0f0;
+}
+
+/* section {
+  padding-top: 10px;
+} */
+
+.tabulka1 table,
+.tabulka1 tr,
+.tabulka1 td {
+  font-size: 20px;
+  border: 2px dotted #f0f0f0;
+}
+
+.tabulka {
+  background-color: white;
+  border: 2px dotted #f0f0f0;
+}
+
+a {
+  color: #c5308a;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.foto img {
+  filter: grayscale(100%);
+}
+
+.foto img:hover,
+.foto img:focus {
+  filter: grayscale(0%);
+  transition: 1000ms;
+}
+
+.foto {
+  padding: 0;
+  padding-top: 5px;
+}
